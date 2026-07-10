@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" 
+          href="twitter.png" />
+
+    <title>Twitter</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="script.js" defer></script>
+    
+  </head>
+  <body>
+    <div class="container">
+      <!-- Logo Twittera, klasa twitter-logo -->
+      <img class="twitter-logo" src="twitter.png">
+      <!-- Duży napis Twitter -->
+      <h1>Twitter</h1>
+      <!-- Formularz o ID tweetForm -->
+      <form id="tweetForm">
+      <!-- Etykieta dla pola na nazwę użytkownika -->
+      <label for="username">Nazwa użytkownika</label>
+      <!-- Pole na nazwę użytkownika, ID username  -->
+      <input type="text" id="username" name="username" required>
+      <!-- Etykieta na pole na treść tweeta  -->
+      <label for="tweetcontent">Co słychać?</label>
+      <!-- Pole tekstowe na treść tweeta, ID tweetContent -->
+      <textarea id="tweetContent" requiredname="tweetContent" ></textarea>
+      <!-- Przycisk do wysłania tweeta  -->
+      <button type="submit"></button>
+    <!-- Zamknięcie formularza -->
+    </form>
+      <!-- Przycisk Clear all, ID clearButton -->
+      <button id="clearButton" class="clear-button"></button>
+      
+      <div id="tweets"></div>  
+      
+    </div>
+    
+    <footer class="footer">
+    </footer>
+    
+  </body>
+</html>
